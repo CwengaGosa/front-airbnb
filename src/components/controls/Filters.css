@@ -1,0 +1,27 @@
+.filters-container {
+    display: flex;
+    width: 1392px;
+    height: 36px;
+    gap: 16px;
+    /* Set opacity to 1 for visibility */
+    opacity: 1;
+  }
+  
+  .filter-button {
+    width: 154px;
+    height: 36px;
+    padding: 8px 16px;
+    gap: 8px;
+    border-radius: 100px ;
+    border: 1px solid #000; /* Set a visible border color */
+    /* Set opacity to 1 for visibility */
+    opacity: 1;
+    background-color: #fff; /* Set a visible background color */
+    color: #000; /* Set a visible text color */
+    cursor: pointer;
+  }
+  
+  .filter-button:hover {
+    border-color: #000; /* Change border color on hover */
+  }
+  

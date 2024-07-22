@@ -1,0 +1,43 @@
+.explore-options-container {
+    width: 1440px;
+    padding: 64px 160px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-left: 70px;
+  }
+  
+  .explore-options-content {
+    width: 1120px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .explore-options-content h2 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .cities, .unique-stays {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .cities span, .unique-stays span {
+    margin-right: 16px;
+  }
+  
+  .breadcrumb {
+    margin-top: 32px;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .breadcrumb span {
+    margin-right: 8px;
+  }
+  

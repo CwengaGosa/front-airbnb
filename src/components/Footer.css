@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  .footer-container {
+      width: 100%;
+      padding: 64px 80px 24px 80px;
+      background-color: #f7f7f7;
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+    }
+    
+    .footer-columns {
+      display: flex;
+      gap: 48px;
+    }
+    
+    .footer-column {
+      flex: 1;
+    }
+    
+    .footer-column h3 {
+      margin-bottom: 24px;
+    }
+    
+    .footer-column ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .footer-column li {
+      margin-bottom: 16px;
+    }
+    
+    .footer-column a {
+      color: #333;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    
+    .footer-column a:hover {
+      color: #0073bb; /* Airbnb's primary blue color */
+    }
+    
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    .footer-bottom p {
+      margin: 0;
+    }
+    
+    .footer-icons {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+    
+    .footer-icons a {
+      color: #333;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    
+    .footer-icons a:hover {
+      color: #0073bb; /* Airbnb's primary blue color */
+    }
+    
+    .footer-icons i {
+      font-size: 20px;
+    }
+    

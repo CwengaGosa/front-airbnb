@@ -1,0 +1,119 @@
+.about-host-container {
+    width: 1120px;
+    padding: 24px;
+    margin-bottom: 32px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 390px;
+  }
+  
+  .host-details {
+    display: flex;
+    gap: 32px;
+  }
+  
+  .host-image {
+    width: 128px;
+    height: 128px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .host-info {
+    flex: 1;
+  }
+  
+  .host-info h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .host-info p {
+    margin: 4px 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .host-info p span {
+    margin-right: 8px;
+  }
+  
+  .contact-host-button {
+    margin-top: 16px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .contact-host-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .disclaimer {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #888;
+  }
+  
+
+  .things-to-know {
+    width: 100%;
+    margin-top: 32px;
+  }
+  
+  .things-to-know h3 {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .things-to-know-content {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .house-rules, .health-safety, .cancellation-policy {
+    flex: 1;
+  }
+  
+  .house-rules h4, .health-safety h4, .cancellation-policy h4 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .house-rules ul, .health-safety ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .house-rules li, .health-safety li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .house-rules li svg, .health-safety li svg {
+    margin-right: 8px;
+  }
+  
+  .cancellation-policy p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .cancellation-policy a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .cancellation-policy a:hover {
+    text-decoration: underline;
+  }
+  

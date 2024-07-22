@@ -1,0 +1,49 @@
+.viewlist-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .reservations-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .reservations-table th, .reservations-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .reservations-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .reservations-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .reservations-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .btn-delete {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-delete:hover {
+    background-color: darkred;
+  }
+  

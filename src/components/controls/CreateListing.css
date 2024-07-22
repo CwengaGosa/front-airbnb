@@ -1,0 +1,64 @@
+.create-listing-container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .create-listing-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .form-group-inline {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input,
+  textarea,
+  select,
+  button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  .btn-create {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .btn-cancel {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
